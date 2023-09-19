@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTMX and WebAssembly Example</title>
+    <script src="https://unpkg.com/htmx.org@1.9.5"></script>
+    <script>
+        function getInputValue() {
+            return document.getElementById("inputNumber").value;
+        }
+    </script>
+</head>
+<body>
+    <h1>HTMX and WebAssembly Example</h1>
+    <input type="number" id="inputNumber" placeholder="Enter a number" pattern="[0-9]+">
+    <button hx-post="http://localhost:3000/api/computePrimes" hx-target="#result" hx-vals='js:{"inputValue": getInputValue()}' hx-update="#result">Calculate fibonacci number</button>
+    <div id="result"></div>
+</body>
+</html>

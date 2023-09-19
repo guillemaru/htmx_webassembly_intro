@@ -1,0 +1,21 @@
+{
+  "name": "htmx_webassembly_intro",
+  "version": "1.0.0",
+  "main": "expensiveMath.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Guillermo Marugan",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "path": "^0.12.7",
+    "util": "^0.12.5"
+  },
+  "description": "Introduction to HTMX and WebAssembly with a working and easy to follow example",
+  "devDependencies": {}
+}

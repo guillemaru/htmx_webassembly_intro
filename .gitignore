@@ -1,0 +1,4 @@
+node_modules/
+web/gen/
+build/
+package-lock.json
