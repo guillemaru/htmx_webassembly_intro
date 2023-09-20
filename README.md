@@ -19,16 +19,22 @@ cd your-repo
 code .
 ```
 Initialize the npm project and install dependencies:  
-`npm init  
-npm install`  
+```bash
+npm init  
+npm install
+```
 Build the WebAssembly files by running the provided build.sh script:  
-`./build.sh`  
+```bash
+./build.sh
+```
 This script compiles the fib.cpp file to WebAssembly and moves the resulting files to the web/gen/ directory.  
 
 # Running the Application
 Start the html file by running the live server extension in VSCode  
 Start the Node.js server:  
-`node server.js`  
+```bash
+node server.js
+```
 The server will be running on http://localhost:3000.  
 
 Enter a number in the input field and click the "Calculate Fibonacci number" button. The result will be displayed below the button.  
