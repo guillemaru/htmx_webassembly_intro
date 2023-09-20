@@ -13,9 +13,11 @@ Follow these steps to set up and run the project:
 
 Clone the repository to your local machine:  
 
-`git clone https://github.com/guillemaru/htmx_webassembly_intro  
+```bash
+git clone https://github.com/guillemaru/htmx_webassembly_intro  
 cd your-repo  
-code .`  
+code .
+```
 Initialize the npm project and install dependencies:  
 `npm init  
 npm install`  
