@@ -27,15 +27,18 @@ Build the WebAssembly files by running the provided build.sh script:
 ```bash
 ./build.sh
 ```
+```PowerSHell
+powershell -ExecutionPolicy Bypass -File "build.ps1"
+```
 This script compiles the fib.cpp file to WebAssembly and moves the resulting files to the web/gen/ directory.  
 
 ## Running the Application
 Start the html file by running the live server extension in VSCode  
 Start the Node.js server:  
 ```bash
-node server.js
+node server.cjs
 ```
-The server will be running on http://localhost:3000.  
+The server will be running on http://localhost:3000 and it assumes the index.html is server from port 5500, like the Live Server VSCode extension is doing.
 
 Enter a number in the input field and click the "Calculate Fibonacci number" button. The result will be displayed below the button.  
 
